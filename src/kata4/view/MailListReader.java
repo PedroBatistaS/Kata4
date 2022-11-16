@@ -7,7 +7,7 @@ import kata4.model.*;
 
 public class MailListReader{
     
-    public List<Mail> read(String fileName) {
+    public static List<Mail> read(String fileName) {
         BufferedReader br = null;
         List<Mail> mails = new ArrayList<Mail>();
         try {
